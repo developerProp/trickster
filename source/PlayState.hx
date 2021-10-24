@@ -386,6 +386,10 @@ class PlayState extends MusicBeatState
 			stageFront.scrollFactor.set(0.9, 0.9);
 			stageFront.active = false;
 			add(stageFront);
+			/* create(stageFront).active = true;
+			add.FlxSprite.for(stageFront):if.active new.FlxSprite = true;
+			stageFront = curStage.antialiasing = false;
+			var stageFront:(Flxtween:dad.curCharacter extends stageFront.Map); */
 
 			var stageCurtains:FlxSprite = new FlxSprite(-500, -300).loadGraphic(Paths.image('stagecurtains'));
 			stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
